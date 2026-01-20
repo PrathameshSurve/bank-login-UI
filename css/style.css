@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #006a5b;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 380px;
+  padding: 28px 26px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.logo img {
+  height: 38px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.divider {
+  height: 1px;
+  background: #cfcfcf;
+  margin: 14px 0 20px;
+}
+
+.error-banner {
+  background: #f2f2f2;
+  border-left: 4px solid #9b9b9b;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  height: 38px;
+  padding: 6px 8px;
+  border: 1px solid #8a8a8a;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #006a5b;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper button {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sign-in-btn {
+  width: 100%;
+  margin-top: 14px;
+  height: 40px;
+  background: #4f9488;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sign-in-btn:hover {
+  background: #437f75;
+}
+
+.links {
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.links a {
+  color: #006a5b;
+  text-decoration: none;
+}
+
+.links span {
+  margin: 0 4px;
+}
+
+.footer {
+  margin-top: 18px;
+  font-size: 11px;
+  color: #555;
+  line-height: 1.4;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DCU | Sign in</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <main class="page">
+    <section class="login-card">
+
+      <!-- Logo -->
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/DCU_logo.svg" alt="DCU Logo">
+      </div>
+
+      <h1 class="title">Sign in</h1>
+      <div class="divider"></div>
+
+      <!-- Error Banner -->
+      <div id="errorBanner" class="error-banner hidden">
+        <span>We were unable to sign you in. Please try again.</span>
+      </div>
+
+      <form id="loginForm" novalidate>
+
+        <div class="form-group">
+          <label for="username">USERNAME</label>
+          <input type="text" id="username" />
+        </div>
+
+        <div class="form-group">
+          <label for="password">PASSWORD</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" />
+            <button type="button" id="togglePassword" aria-label="Show password">
+              👁
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" class="sign-in-btn">SIGN IN</button>
+      </form>
+
+      <div class="links">
+        <a href="#">Forgot your username?</a>
+        <span>or</span>
+        <a href="#">Forgot your password?</a>
+      </div>
+
+      <footer class="footer">
+        © 2026 Digital Federal Credit Union, a division of First Technology Federal Credit Union
+        <br />
+        v7.24.2
+      </footer>
+
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
